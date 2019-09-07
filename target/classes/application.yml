@@ -7,5 +7,6 @@ spring:
     show-sql: true
 
 activiti:
-    check-process-definitions: false
+    check-process-definitions: true
     database-schema-update: true
+    process-definition-location-prefix: classpath:/processes/
